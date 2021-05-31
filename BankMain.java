@@ -76,7 +76,7 @@ public class BankMain
 					break;
 				case 2:
 					System.out.println("Enter username : ");
-					username = sc.next();
+					username = sc.next();//User name of Debajyoti Roy
 					sc.nextLine();
 					System.out.println("Enter password : ");
 					password = sc.next();
@@ -88,6 +88,7 @@ public class BankMain
 						{
 							while(true)
 							{
+								//Creating Genesis's Object
 								System.out.println("\n-------------------");
 								System.out.println("W  E  L  C  O  M  E ");
 								System.out.println("-------------------\n");
@@ -172,7 +173,7 @@ public class BankMain
 						}
 						else
 						{
-							System.out.println("Wrong username/password.");
+							System.out.println("Wrong username/password.");//Wrong Username of Debajyoti Roy
 						}
 					}
 					else
